@@ -1,23 +1,19 @@
 * {
     border: red solid 1px;
 }
-
 body {
     font-family:'Roboto', sans-serif;
+    padding: 5px 60px 5px 60px;
 }
-
-header {
-    padding: 5px 50px 5px 50px;
+header {   
     color: white;
     background-color: #1f2937;
     display: flex;
 }
-
 h3 {
     margin: 0px;
     padding: 0px; 
 }
-
 ul {
     margin: 0px;
     padding: 0px;
@@ -25,10 +21,40 @@ ul {
     display: flex;
     align-items: center;
     margin-left: auto;  
-    gap: 40px;
+    gap: 16px;
 }
-
 li {
     margin: 0px;
     padding: 0px;
+}
+.section1 {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+}
+.section2 > h2 {
+    text-align: center;
+}
+.box-container {
+    display: flex;
+}
+.image-box {
+    
+}
+.image-placeholder {
+    background-color: grey;
+}
+.section3 {
+    background-color: lightgrey;
+}
+.section4 {
+    display: flex;
+}
+.section4-left {
+
+}
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
 }
